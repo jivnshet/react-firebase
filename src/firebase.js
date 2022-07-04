@@ -3,13 +3,13 @@ import {createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWithE
 import {addDoc, collection, getDocs, getFirestore, query, where} from 'firebase/firestore'
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAs3WZlVcDFGA47psPWso_2jjPs6KMQHts",
-    authDomain: "react-firebase-1969a.firebaseapp.com",
+    apiKey: "apiKey",
+    authDomain: "authDomain",
     projectId: "react-firebase-1969a",
     storageBucket: "react-firebase-1969a.appspot.com",
-    messagingSenderId: "144294446768",
-    appId: "1:144294446768:web:e7133723738a17ccf85d75",
-    measurementId: "G-QESQKM1650"
+    messagingSenderId: "messagingSenderId",
+    appId: "appId",
+    measurementId: "measurementId"
   };
 
 const app=initializeApp(firebaseConfig); 
